@@ -21,27 +21,27 @@
         android:inputType="numberDecimal"/>
 
     <!-- Expense Category (optional) -->
-    <EditText
-        android:id="@+id/expenseCategoryEditText"
+    <Spinner
+        android:id="@+id/categorySpinner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Category"/>
+        android:layout_marginTop="16dp"
+        android:spinnerMode="dropdown" />
 
     <!-- Date Picker for Expense Date -->
     <EditText
         android:id="@+id/expenseDateEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Date"
-        android:focusable="false"
-        android:inputType="date"/>
+        android:hint="Select Date"
+        android:focusable="false" />
 
     <!-- Save Button -->
     <Button
         android:id="@+id/saveExpenseButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Save Expense"
+        android:text="Save"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="16dp"/>
 </LinearLayout>

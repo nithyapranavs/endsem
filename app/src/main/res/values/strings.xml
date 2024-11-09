@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">endsem</string>
+    <string-array name="expense_categories">
+        <item>Food</item>
+        <item>Transport</item>
+        <item>Accommodation</item>
+    </string-array>
 </resources>
